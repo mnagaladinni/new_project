@@ -1,0 +1,11 @@
+version: 2
+models:
+  - name: stg_insurance
+    columns:
+      - name: patient_id
+        description: it is a primary key of insurance
+        tests:
+          - unique
+          - not_null
+           
+    

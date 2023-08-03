@@ -1,0 +1,9 @@
+version: 2
+
+sources: 
+  - name: insurance
+    database: airbnb_cloud
+    schema: raw
+    tables: 
+      - name: insurance
+        identifier: insurance_raw
